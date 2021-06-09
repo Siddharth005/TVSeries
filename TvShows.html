@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Shows</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Font Comfortaa -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="TVShows.css">
+
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light flexbox"
+        style=" position: fixed; top: -0.1vh; width: 100vw; margin: 0%;">
+
+        <!-- LOGO -->
+        <div style="margin: 0 2vw;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-display"
+                viewBox="0 0 16 16">
+                <path
+                    d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z" />
+            </svg>
+        </div>
+
+        <!-- Search Form -->
+        <div>
+            <form class="form-inline" id="search">
+                <input class="form-control mr-sm-3" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+
+            </form>
+        </div>
+    </nav>
+
+    <!-- Main Body -->
+    <section>
+        <div class=" m-2 flexbox fontFamily">
+
+            <!-- Left Column for information -->
+            <div style="width: 27%; ">
+                <div style="height: 88vh; width: 24%; margin-top: 8.5vh; margin-left: 1vw; position:fixed;"
+                    class="card BGcolor">
+                    <h2 class="mt-4" style="text-align: center;">Viewer's Choice</h2>
+                    <br>
+                    <div style="text-align: center;">
+                        <ul>
+                            <li>
+                                <h5>Breaking Bad</h5>
+                            </li>
+                            <li>
+                                <h5>Chernobyl</h5>
+                            </li>
+                            <li>
+                                <h5>Sherlock Holmes</h5>
+                            </li>
+                            <li>
+                                <h5>Game Of Thrones</h5>
+                            </li>
+                            <li>
+                                <h5>Big Bang theory</h5>
+                            </li>
+                            <li>
+                                <h5>Friends</h5>
+                            </li>
+                            <li>
+                                <h5>Peaky Blinders</h5>
+                            </li>
+                            <li>
+                                <h5>Narcos</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Search Result Body -->
+            <div style=" width: 50%; margin-top: 12vh;" class="resultContainer flexbox fontFamily">
+                <h1>Welcome to WEB Mania</h1>
+                <h3>Search your favourite web series here </h3>
+            </div>
+
+            <!-- Right Column for ADS -->
+            <div style="width: 23%; ">
+                <div style="height: 88vh; width: 23%; margin-top: 8.5vh; margin-right: 3vw; position:fixed;"
+                    class="card BGcolor">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3uWhOI2kpTFjMY4G5QStWzLFy54yRvpkUtQ&usqp=CAU"
+                        class="img-fluid m-1">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3DTsHsTHxRz5xxpfWy9ayccyENpBVUXEAAA&usqp=CAU"
+                        class="img-fluid m-1">
+
+                    <img class="img-fluid m-1"
+                        src="https://www.feedough.com/wp-content/uploads/2018/04/ADVERTISING-07.webp" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Java Script -->
+    <script src="TvShows.js"></script>
+</body>
+
+</html>
